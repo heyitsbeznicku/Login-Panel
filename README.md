@@ -12,7 +12,7 @@ A lightweight, dark-themed login panel built with plain HTML and CSS (Font Aweso
 - Easy to customize colors and spacing
 
 ## Demo / Preview
-Open `LoginPanel.html` in your browser to view the panel. No build tools required.
+Open `https://beznicku.pl/#projects` in your browser to view the panel.
 
 ## Technologies
 - HTML5
@@ -23,8 +23,7 @@ Open `LoginPanel.html` in your browser to view the panel. No build tools require
 1. Clone or download the repository.
 2. Ensure `LoginPanel.html` is in your project folder (no server required).
 3. Open the file in any modern browser:
-   - double-click the file, or
-   - run `start "" "e:\Jezyki\html\Main\PORTFOLIO\Assets\LoginPanel.html"` from Windows command line to open it.
+   - double-click the file, 
 
 ## Usage
 - The form is static (no backend). To integrate with a backend, set the `form` element `action` attribute and adapt `method`.
@@ -49,7 +48,6 @@ Example variables or CSS to change:
 To reduce flashing or rapid background color changes (for users sensitive to motion or light), the project includes slowed transitions. For stricter accessibility, add a `prefers-reduced-motion` rule to remove or fade animations:
 
 ```css
-/* filepath: e:\Jezyki\html\Main\PORTFOLIO\Assets\LoginPanel.html */
 @media (prefers-reduced-motion: reduce) {
   .login-btn,
   .login-btn:hover {
@@ -64,7 +62,6 @@ To reduce flashing or rapid background color changes (for users sensitive to mot
 
 Or, replace the color-changing hover with a subtle shadow-only hover:
 ```css
-/* filepath: e:\Jezyki\html\Main\PORTFOLIO\Assets\LoginPanel.html */
 .login-btn:hover {
   background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); /* no color swap */
   box-shadow: 0 0 40px rgba(0,229,255,0.15);
@@ -84,10 +81,8 @@ Or, replace the color-changing hover with a subtle shadow-only hover:
 MIT — free to use and modify. Include attribution if reusing in public projects.
 
 ## Author & Contact
-- Created as a small UI component for portfolio/demo use.
-- Contact: contactme@gmail.com (replace with your email in the file)
+- Created by bez_nicku.
+- Contact: heyitsbeznicku@gmail.com 
 
 ---
 
-Short repo description (for GitHub repository bio):
-"Dark, responsive Login Panel (HTML/CSS) — lightweight, accessible and easy to customize."
