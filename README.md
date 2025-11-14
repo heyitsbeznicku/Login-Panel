@@ -79,16 +79,6 @@ To reduce flashing or rapid background color changes (for users sensitive to mot
 }
 ```
 
-## File structure
-```
-Login Panel/
-├── index.html              — main file (HTML + inline CSS + Font Awesome link)
-├── README.md               — this file
-└── (Optional) assets/
-    ├── styles.css          — extracted CSS (for larger projects)
-    └── icons/              — local icon folder (if not using CDN)
-```
-
 ## Contribution
 - Issues and PRs welcome.
 - Keep changes focused: either move styles to a separate file, add backend integration examples, or provide localization.
@@ -103,6 +93,3 @@ MIT — free to use and modify. Include attribution if reusing in public project
 - Discord: bez_nicku
 
 ---
-
-**Short description for GitHub:**
-"Dark, responsive Login Panel (HTML/CSS) — lightweight, accessible and easy to customize. Perfect for portfolio pages and demo projects."
