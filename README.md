@@ -12,7 +12,7 @@ A lightweight, dark-themed login panel built with plain HTML and CSS (Font Aweso
 - Easy to customize colors and spacing
 
 ## Demo / Preview
-Open `https://beznicku.pl/#projects` in your browser to view the panel.
+Open `beznicku.pl` in your browser to view the panel.
 
 ## Technologies
 - HTML5
@@ -36,7 +36,6 @@ Open `https://beznicku.pl/#projects` in your browser to view the panel.
 
 Example variables or CSS to change:
 ```css
-/* filepath: e:\Jezyki\html\Main\PORTFOLIO\Assets\LoginPanel.html */
 /* change accent color */
 .login-panel input,
 .login-btn {
